@@ -1,0 +1,56 @@
+body{
+background-color: rgb(240, 209, 255); /* màu nền */
+font-family: 'Times New Roman', Times, serif; /* font chữ */
+color: black; /* màu chữ đen */
+}
+.container{
+    display: flex; /* xếp theo hàng ngang */
+    justify-content: space-around; /* chia đều 2 bên */
+}
+.cot1{
+    width: 45%; /* rộng 45% */
+    background-color: rgb(216, 255, 224);
+    padding: 10px; /* đệm 10px */
+    border: 1px solid rgb(0, 0, 0); /* đường viền 1px đen */
+    border-radius: 25px; /* bo viền 25px */
+}
+.cot2{
+    width: 45%;
+    background-color: rgb(255, 200, 209);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+img{
+    display: block; /* khoá ảnh lại để có thể căn giữa margin */
+    margin: 5px auto;
+    border-radius: 20px;
+    max-width: 450px; /* size max rộgn 450px */
+}
+table{
+    border-collapse: separate; /* có line cách nhau nhưng spacing = 0 nên sẽ gộp lại */
+    border-spacing: 0;
+    padding: 10px;
+    border: 5px solid black;
+    width: 100%;
+    border-radius: 10px;
+}
+.tieude{
+    text-align: center; /* căn giữa */
+}
+.footer{
+    text-align: right;
+}
+th,td{
+    text-align: center;
+    padding: 5px;
+    border-radius: 2px;
+}
+th{
+    text-decoration: underline; /* text gạch chân */
+}
+a{text-decoration: none;}  /* cancle gạch chân mặc định */
+a:hover { /* khi chạm vào link sẽ */
+    text-decoration: underline; /* */
+    color: red;
+}
